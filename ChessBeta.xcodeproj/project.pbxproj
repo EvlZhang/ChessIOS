@@ -15,6 +15,10 @@
 		6F2433CC25195AEC005FC1FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F2433CA25195AEC005FC1FF /* LaunchScreen.storyboard */; };
 		6F2433D725195AEC005FC1FF /* ChessBetaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2433D625195AEC005FC1FF /* ChessBetaTests.swift */; };
 		6F2433E225195AEC005FC1FF /* ChessBetaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2433E125195AEC005FC1FF /* ChessBetaUITests.swift */; };
+		6F2433F325195D0E005FC1FF /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2433F225195D0E005FC1FF /* Board.swift */; };
+		6F24343725196643005FC1FF /* chessLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24343625196643005FC1FF /* chessLoop.swift */; };
+		6F24343D25196768005FC1FF /* King.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24343C25196768005FC1FF /* King.swift */; };
+		6F24344225196944005FC1FF /* Pieces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24344125196944005FC1FF /* Pieces.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		6F2433DD25195AEC005FC1FF /* ChessBetaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChessBetaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F2433E125195AEC005FC1FF /* ChessBetaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessBetaUITests.swift; sourceTree = "<group>"; };
 		6F2433E325195AEC005FC1FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F2433F225195D0E005FC1FF /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		6F24343625196643005FC1FF /* chessLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chessLoop.swift; sourceTree = "<group>"; };
+		6F24343C25196768005FC1FF /* King.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = King.swift; sourceTree = "<group>"; };
+		6F24344125196944005FC1FF /* Pieces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pieces.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,7 @@
 		6F2433B325195AE9005FC1FF = {
 			isa = PBXGroup;
 			children = (
+				6F24343B2519670E005FC1FF /* ChessPieces */,
 				6F2433BE25195AE9005FC1FF /* ChessBeta */,
 				6F2433D525195AEC005FC1FF /* ChessBetaTests */,
 				6F2433E025195AEC005FC1FF /* ChessBetaUITests */,
@@ -103,6 +112,7 @@
 				6F2433C125195AE9005FC1FF /* SceneDelegate.swift */,
 				6F2433C325195AE9005FC1FF /* ViewController.swift */,
 				6F2433C525195AE9005FC1FF /* Main.storyboard */,
+				6F2433F225195D0E005FC1FF /* Board.swift */,
 				6F2433C825195AEC005FC1FF /* Assets.xcassets */,
 				6F2433CA25195AEC005FC1FF /* LaunchScreen.storyboard */,
 				6F2433CD25195AEC005FC1FF /* Info.plist */,
@@ -126,6 +136,16 @@
 				6F2433E325195AEC005FC1FF /* Info.plist */,
 			);
 			path = ChessBetaUITests;
+			sourceTree = "<group>";
+		};
+		6F24343B2519670E005FC1FF /* ChessPieces */ = {
+			isa = PBXGroup;
+			children = (
+				6F24343C25196768005FC1FF /* King.swift */,
+				6F24344125196944005FC1FF /* Pieces.swift */,
+				6F24343625196643005FC1FF /* chessLoop.swift */,
+			);
+			path = ChessPieces;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +278,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F24343725196643005FC1FF /* chessLoop.swift in Sources */,
 				6F2433C425195AE9005FC1FF /* ViewController.swift in Sources */,
+				6F24343D25196768005FC1FF /* King.swift in Sources */,
 				6F2433C025195AE9005FC1FF /* AppDelegate.swift in Sources */,
+				6F2433F325195D0E005FC1FF /* Board.swift in Sources */,
+				6F24344225196944005FC1FF /* Pieces.swift in Sources */,
 				6F2433C225195AE9005FC1FF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
