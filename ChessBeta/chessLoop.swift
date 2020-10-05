@@ -7,8 +7,8 @@
 
 import Foundation
 
-var plyaerKing:King=King()
-var aiKing:King=king()
+//var plyaerKing:King=King()
+//var aiKing:King=king()
 
 
 func setup(){
