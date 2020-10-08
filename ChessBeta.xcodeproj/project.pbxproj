@@ -87,7 +87,6 @@
 		6F2433B325195AE9005FC1FF = {
 			isa = PBXGroup;
 			children = (
-				6F24343B2519670E005FC1FF /* ChessPieces */,
 				6F2433BE25195AE9005FC1FF /* ChessBeta */,
 				6F2433D525195AEC005FC1FF /* ChessBetaTests */,
 				6F2433E025195AEC005FC1FF /* ChessBetaUITests */,
@@ -108,6 +107,9 @@
 		6F2433BE25195AE9005FC1FF /* ChessBeta */ = {
 			isa = PBXGroup;
 			children = (
+				6F24343C25196768005FC1FF /* King.swift */,
+				6F24344125196944005FC1FF /* Pieces.swift */,
+				6F24343625196643005FC1FF /* chessLoop.swift */,
 				6F2433BF25195AE9005FC1FF /* AppDelegate.swift */,
 				6F2433C125195AE9005FC1FF /* SceneDelegate.swift */,
 				6F2433C325195AE9005FC1FF /* ViewController.swift */,
@@ -136,16 +138,6 @@
 				6F2433E325195AEC005FC1FF /* Info.plist */,
 			);
 			path = ChessBetaUITests;
-			sourceTree = "<group>";
-		};
-		6F24343B2519670E005FC1FF /* ChessPieces */ = {
-			isa = PBXGroup;
-			children = (
-				6F24343C25196768005FC1FF /* King.swift */,
-				6F24344125196944005FC1FF /* Pieces.swift */,
-				6F24343625196643005FC1FF /* chessLoop.swift */,
-			);
-			path = ChessPieces;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
